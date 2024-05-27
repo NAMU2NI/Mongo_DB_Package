@@ -1,6 +1,4 @@
-# ci.yaml
-Github provides us a service called Github Action -- > pushing the code to Git hub     
-
+ 
 # requirements_dev.txt we use for the testing 
 It makes it easier to install and manage dependencies for development and testing, separate from the dependencies required for production
 
@@ -40,5 +38,15 @@ Testing the project in a local envirnonment
   1. ci.yaml : Config related to the continous integration - To test the code in Github (Git hub Action server) (As soon as i push the code to Github action) 
   2. python-publish.yaml : Config related to the PyPi deployment - Deploy the code to the PyPi depositary
 
+# Mongo DB 
+  No SQL db 
+    { key : value pair }
+    
+    1. Creating a client 
+    2. Create a database 
+    3. Create a collection -- > Inside teh Collection data would be available in the form of document 
+    4. document (key and value pair) 
+  
 
+     
      
